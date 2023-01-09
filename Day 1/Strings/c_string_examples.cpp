@@ -9,7 +9,7 @@ int main() {
 
     cout << "\"" << word << "\" has " << strlen(word) << " characters" << endl;
 
-    char word1[20] = "hello";
+    char word1[21] = "hello";
     char word2[20] = "hello";
 
     // This does not work since it is comparing the address of word1 with word2
